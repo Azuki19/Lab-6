@@ -1,0 +1,90 @@
+body {
+	background-color: #000000;
+	font-family: 'Arial', sans-serif;
+	color: #ffffff;
+	margin: 0;
+	padding: 0;
+}
+
+.app-container {
+	background-color: #1f131b;
+	padding: 20px;
+	text-align: center;
+}
+
+.title h1 {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 36px;
+	color: #ffffff;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+b {
+	display: block;
+	width: 80px;
+	height: 5px;
+	background-color: #ff0095;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.form-create-song input {
+	font-family: 'Arial', sans-serif;
+	font-size: 16px;
+	color: #ffffff;
+	background-color: #ff00bb50;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 15px;
+	margin: 5px;
+	width: 150px;
+	outline: none;
+}
+
+.form-create-song input::placeholder {
+	color: #ffffff7e;
+}
+
+.form-create-song input[type='submit'] {
+	background-color: #ad0087;
+	color: #ffffff;
+	font-weight: bold;
+	cursor: pointer;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 30px;
+	margin-top: 10px;
+	transition: background-color 0.3s ease;
+}
+
+.form-create-song input[type='submit']:hover {
+	background-color: #ff9fe7;
+	color: #ad0087;
+}
+
+.list-songs {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.songs-app {
+	background-color: #333333;
+	border: 2px solid #ff0000;
+	border-radius: 10px;
+	padding: 20px;
+	margin: 10px;
+	max-width: 300px;
+	text-align: center;
+}
+
+.songs-app p {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.songs-app img {
+	max-width: 100%;
+	border-radius: 10px;
+}
